@@ -14,18 +14,18 @@
     "high_chans" : [1818],
     "n_chans" : [1818]
   },
-  "MID":
+  "Filament":
   {
-    "band" : "MID",
-    "spw_selection" : "0:1290~1520MHz",
-    "nchan" : 8805,
-    "smopschans" : 1761,
+    "band" : "Filament",
+    "spw_selection" : "",
+    "nchan" : 4155,
+    "smopschans" : 1385,
     "timechunk" : 4,
     "chansout" : 10,
     "polyorder" : 4,
-    "low_chans" : [0,2200,4400,6600],
-    "high_chans" : [2200,4400,6600,8805],
-    "n_chans" : [2200,2200,2200,2205]
+    "low_chans" : [0,1385,2270],
+    "high_chans" : [1385,2270,4155],
+    "n_chans" : [1385,1385,1385]
   },
   "HIGH":
   {
