@@ -1,19 +1,6 @@
 {
   "CONTAINER" : "/idia/software/containers/oxkat-0.42.sif",
   "DATACOL" : "DATA",
-  "LOW":
-  {
-    "band" : "LOW",
-    "spw_selection" : "0:960~1150MHz",
-    "nchan" : 1818,
-    "smopschans" : 909,
-    "timechunk" : 4,
-    "chansout" : 10,
-    "polyorder" : 4,
-    "low_chans" : [0],
-    "high_chans" : [1818],
-    "n_chans" : [1818]
-  },
   "Filament":
   {
     "band" : "Filament",
@@ -26,19 +13,6 @@
     "low_chans" : [0,1385,2270],
     "high_chans" : [1385,2270,4155],
     "n_chans" : [1385,1385,1385]
-  },
-  "HIGH":
-  {
-    "band" : "HIGH",
-    "spw_selection" : "0:1610~1650MHz",
-    "nchan" : 1531,
-    "smopschans" : 1531,
-    "timechunk" : 4,
-    "chansout" : 6,
-    "polyorder" : 3,
-    "low_chans" : [0],
-    "high_chans" : [1531],
-    "n_chans" : [1531]
   },
   "PBCOR":
   {
