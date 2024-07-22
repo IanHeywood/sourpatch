@@ -1,4 +1,4 @@
-# mightee-hi
+# sourpatch
 
 These scripts are for flagging, self-calibration, continuum subtraction and broadband spectral line imaging of MeerKAT L-band data. They were made for the MIGHTEE HI project, but are generic. It is assumed the data are in 32k mode and are already reference-calibrated. The `DATA` column of the parent MS will be used by default. A FITS image that contains a deconvolution mask (10240 x 10240, 1" pixels) is also assumed to be available (e.g. from the MIGHTEE continuum imaging). Make a scratch folder, clone this repo into it, and symlink the parent Measurement Set (with `.ms` suffix) to that path. The scripts below generate shell scripts that will submit batch jobs for each stage to the ilifu cluster slurm queue. The `oxkat-0.42.sif` container is required, and should be picked up automatically.
 
