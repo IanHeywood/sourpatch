@@ -10,8 +10,8 @@
     "timechunk" : 4,
     "chansout" : 10,
     "polyorder" : 4,
-    "low_chans" : [0,1385,2270],
-    "high_chans" : [1385,2270,4155],
+    "low_chans" : [0,1385,2770],
+    "high_chans" : [1385,2770,4155],
     "n_chans" : [1385,1385,1385]
   },
   "PBCOR":
